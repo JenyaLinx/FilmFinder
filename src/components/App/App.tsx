@@ -59,7 +59,18 @@ export default function App() {
             </span>
           </a>
 
-          <span className={css.headerLabel}>Discover your next movie</span>
+          <div className={css.headerInfo}>
+  <span className={css.headerLabel}>Discover your next movie</span>
+
+  <a
+    className={css.tmdbLink}
+    href="https://www.themoviedb.org/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Powered by <span>TMDB</span>
+  </a>
+</div>
         </div>
       </header>
 
